@@ -1,10 +1,10 @@
-import {RiMoonFoggyLine, RiSunFill, RiMoonFill} from "react-icons/ri"
-import {BsFillMoonFill} from "react-icons/bs"
+import { RiSunFill, RiMoonFill} from "react-icons/ri"
 import { useState, useEffect } from "react";
+import { Switch } from "@mui/material";
 
 const Toggle = () =>{
   const [darkMode, setDarkMode] = useState(true);
-  
+
   useEffect(()=>{
         const body = document.querySelector('body') as HTMLBodyElement
         const status = localStorage.getItem('schemaColor')
@@ -31,21 +31,17 @@ const Toggle = () =>{
             body.classList.remove('dark')
         },[darkMode])
 
-   return (
-    <>
-        <button
-        className={`btn right-0 top-[10px] mr-14 p-[10px] rounded-full bg-gray-200 dark:bg-[#525252] dark:hover:bg-[#646464e7] dark:text-white hover:bg-gray-300 justify-center flex items-center duration-300`}
-        onClick={() => setDarkMode(!darkMode)}
-      >
-        {darkMode ? (
-        <RiSunFill className="duration-100"/>
-      ) : (
-        <RiMoonFill className="duration-100"/>
-      )}
-      </button>
-    </>
-   )
+        return (
+            <>  
+            <div className="flex items-center px-2">
+                {darkMode ? <RiSunFill /> : <RiMoonFill/>}
+                <Switch
+                    checked={darkMode}
+                    onChange={() => setDarkMode(!darkMode)}
+                />
+                </div>
+            </>
+          );
 }
-
 
 export default Toggle

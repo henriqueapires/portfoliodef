@@ -8,8 +8,10 @@
   "dependencies": {
     "@chakra-ui/icons": "^2.0.13",
     "@chakra-ui/react": "^2.4.3",
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@headlessui/react": "^1.7.12",
+    "@mui/material": "^5.11.9",
     "framer-motion": "^7.6.19",
     "next": "latest",
     "react": "18.2.0",
