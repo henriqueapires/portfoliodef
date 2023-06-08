@@ -141,7 +141,7 @@ const Home: NextPage = () => {
                     <div className='px-10 pt-10'>
                         <label htmlFor="nome" className='flex flex-col text-left'>
                         <span className='font-semibold dark:text-[#d3d3d3]'>Email para contato:</span>
-                        <p className='p-5 my-5 bg-[#ececec] dark:bg-[#525252] rounded duration-300 dark:text-white'>henrique.apires@outlook.com</p>
+                        <p className='p-5 my-5 bg-[#ececec] dark:bg-[#525252] rounded duration-300 dark:text-white overflow-hidden'>henrique.apires@outlook.com</p>
                         </label>
                     </div>
                     <div className="flex pb-5 px-10">

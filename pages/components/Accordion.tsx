@@ -53,3 +53,5 @@ export const Accord = () =>{
         </>
     )
 }
+
+export default Accord

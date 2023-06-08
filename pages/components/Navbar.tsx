@@ -8,7 +8,7 @@ export const Navbar = () =>{
                 <div className="container mx-auto flex flex-row items-center justify-between">
                     <div className="mt-2">
                     <Image
-                        src="/../public/h.png"
+                        src="/h.png"
                         width={70}
                         height={70}
                         alt='h'
@@ -31,3 +31,5 @@ export const Navbar = () =>{
         </>
     )
 }
+
+export default Navbar
