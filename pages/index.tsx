@@ -76,7 +76,7 @@ const Home: NextPage = () => {
                     <a href='https://www.instagram.com/hpires__/' target="_blank"><p className="p-6 dark:bg-[#3D3D3D] dark:hover:bg-[#ff3877b2] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-200"><FiInstagram/></p></a>
                     <a href='https://github.com/halvesp' target="_blank"><p className="p-6 dark:bg-[#3D3D3D] dark:hover:bg-[#ff3877b2] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-200"><FiGithub/></p></a>
                     <a href='https://www.linkedin.com/in/henriqueapires' target="_blank"><p className="p-6 dark:bg-[#3D3D3D] dark:hover:bg-[#ff3877b2] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-200"><FiLinkedin/></p></a>
-                    <a href="https://api.whatsapp.com/send?phone=5511983327071" target="_blank"><p className="p-6 dark:bg-[#3D3D3D] dark:hover:bg-[#ff3877b2] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-200"><SiWhatsapp/></p></a>
+                    <a href="https://api.whatsapp.com/send?phone=5551983327071" target="_blank"><p className="p-6 dark:bg-[#3D3D3D] dark:hover:bg-[#ff3877b2] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-200"><SiWhatsapp/></p></a>
                 </div>
               </div>
           </div>
@@ -156,7 +156,7 @@ const Home: NextPage = () => {
                                 <a href='https://www.instagram.com/hpires__/' target="_blank"><p className="p-6 dark:bg-[#525252] dark:hover:bg-[#ff3877b2]  dark:text-[#d3d3d3] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-300"><FiInstagram/></p></a>
                                 <a href='https://github.com/halvesp' target="_blank"><p className="p-6 dark:bg-[#525252] dark:hover:bg-[#ff3877b2]  dark:text-[#d3d3d3] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-300"><FiGithub/></p></a>
                                 <a href='https://www.linkedin.com/in/henriqueapires' target="_blank"><p className="p-6 dark:bg-[#525252] dark:hover:bg-[#ff3877b2]  dark:text-[#d3d3d3] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-300"><FiLinkedin/></p></a>
-                                <a href="https://api.whatsapp.com/send?phone=5511983327071" target="_blank"><p className="p-6 dark:bg-[#525252] dark:hover:bg-[#ff3877b2]  dark:text-[#d3d3d3] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-300"><SiWhatsapp/></p></a>
+                                <a href="https://api.whatsapp.com/send?phone=5551983327071" target="_blank"><p className="p-6 dark:bg-[#525252] dark:hover:bg-[#ff3877b2]  dark:text-[#d3d3d3] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-300"><SiWhatsapp/></p></a>
                             </div>
                         </div>
                     </div>
