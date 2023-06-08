@@ -51,6 +51,7 @@ const Home: NextPage = () => {
         }
       };
 
+
   const htmlIcon = {color: "#E65100"}
   const cssIcon = {color: "#0277BD"}
   const jsIcon = {color: "#FFD600"}
@@ -90,7 +91,7 @@ const Home: NextPage = () => {
                     <p className='font-semibold'>/sobre</p>
                     <p className='text-5xl'>Quem sou eu</p>
                     <hr className="m-auto w-[30px] mt-10 mb-10 border-[2px] rounded-full border-[#ff3877]"></hr>
-                    <p>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
+                    <p>Aqui você encontrará mais informações sobre mim, o que eu faço e minhas habilidades atuais, principalmente em termos de programação e tecnologia.</p>
                 </div>
                 <div className='grid lg:grid-cols-2 py-20 gap-10 '>
                     <div>
