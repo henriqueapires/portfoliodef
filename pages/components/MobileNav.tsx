@@ -16,7 +16,7 @@ const navigation = [
 export const MobileNavbar = () => {
   return (
     <>
-      <div className="md:hidden block z-20 bg-[#f4f4f4] fixed w-full shadow-lg dark:bg-[#1f1f1f] duration-300 dark:text-[#d3d3d3]">
+      <div className="md:hidden block z-20 bg-[#f4f4f4] fixed w-full shadow-lg dark:bg-[#1f1f1f] duration-300 dark:text-[#d3d3d3] p-2 px-3">
       <div className="container mx-auto flex flex-row items-center justify-between">
         <div className="mt-2">
           <Image src="/h.png" width={45} height={45} alt='h' />
