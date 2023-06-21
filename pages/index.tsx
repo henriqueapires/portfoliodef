@@ -70,7 +70,7 @@ const Home: NextPage = () => {
         <div className='min-h-[100vh] flex flex-col items-center container mx-auto'>
           <div className='px-5 text-center m-auto leading-10 py-20'>
               <p className='md:text-6xl text-4xl font-semibold dark:text-[#d3d3d3] duration-200'>Olá, me chamo <span className='text-[#ff3877]'>Henrique</span></p>
-              <p className='break-all py-7 md:text-6xl text-4xl dark:text-[#d3d3d3] duration-200'>Sou desenvolvedor web Front-End & designer UX</p>
+              <p className='break-all py-7 md:text-6xl text-4xl dark:text-[#d3d3d3] duration-200'>Sou desenvolvedor web Front-End & UI Designer</p>
               <div className="max-w-[365px] m-auto">
                 <div className="p-5 md:text-lg text-md text-black grid md:grid-cols-4 justify-center gap-5 dark:text-white">
                     <a href='https://www.instagram.com/hpires__/' target="_blank"><p className="p-6 dark:bg-[#3D3D3D] dark:hover:bg-[#ff3877b2] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-200"><FiInstagram/></p></a>
