@@ -16,7 +16,7 @@ export const Accord = () =>{
                     </h2>
                     <AccordionPanel className="w-full mb-5 pt-2 pl-2 pb-2">
                         <p className="py-2">05/22 - Atual</p>
-                        Na Capittalx, sou responsável pelo desenvolvimento front-end e web design de sistemas e sites. Meu trabalho principal é o desenvolvimento de aplicações React. Durante meu tempo na empresa, participei do desenvolvimento de projetos desafiadores e contribuí para o sucesso de muitos deles.
+                        Na Capittalx, sou responsável pelo desenvolvimento front-end e web design de sistemas e sites. Meu trabalho principal é o desenvolvimento de aplicações React e Laravel. Durante meu tempo na empresa, participei do desenvolvimento de projetos desafiadores e contribuí para o sucesso de muitos deles.
                     </AccordionPanel>
                 </AccordionItem>
 

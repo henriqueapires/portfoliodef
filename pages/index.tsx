@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import { Navbar } from './components/Navbar'
 import { FiInstagram, FiLinkedin, FiGithub  } from "react-icons/fi";
 import { Accord } from './components/Accordion';
-import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaReact, FaBootstrap } from "react-icons/fa";
 import { SiJavascript, SiTypescript, SiNextdotjs, SiTailwindcss, SiGit, SiGithub, SiWhatsapp } from "react-icons/si";
 import { MobileNavbar } from './components/MobileNav';
 import { useState } from 'react';
@@ -59,6 +59,7 @@ const Home: NextPage = () => {
   const reactIcon = {color: "#80DEEA"}
   const nextIcon = {color: "#212121"}
   const twIcon = {color: "#00ACC1"}
+  const btsIcon = {color: "#702cf6"}
   const gitIcon = {color: "#F4511E"}
   const ghIcon = {color: "#455A64"}
 
@@ -85,7 +86,7 @@ const Home: NextPage = () => {
       </header>
 
     <section id="sobre" className='w-full dark:bg-[#1f1f1f] duration-300'>
-        <div className='min-h-screen flex flex-row items-center container mx-auto px-5 py-10 dark:text-[#d3d3d3]'>
+        <div className='flex flex-row items-center container mx-auto px-5 py-10 dark:text-[#d3d3d3]'>
             <div>
                 <div className='text-center'>
                     <p className='font-semibold'>/sobre</p>
@@ -113,7 +114,7 @@ const Home: NextPage = () => {
     </section> 
 
     <section id="skills" className='w-full dark:bg-[#1f1f1f] duration-300'>
-      <div className='min-h-screen grid items-center container mx-auto py-10 dark:text-[#d3d3d3]'>
+      <div className='grid items-center container mx-auto pb-10 dark:text-[#d3d3d3]'>
             <div>
                 <div className='text-center'>
                     <p className='font-semibold'>/skills</p>
@@ -128,6 +129,7 @@ const Home: NextPage = () => {
                     <div className='p-6 shadow-lg dark:bg-[#3d3d3d] grid lg:grid-cols-2 text-center items-center rounded-md hover:scale-105 duration-300'><div className='m-auto'><FaReact size={70} style={reactIcon}/></div>React</div>
                     <div className='p-6 shadow-lg dark:bg-[#3d3d3d] grid lg:grid-cols-2 text-center items-center rounded-md hover:scale-105 duration-300'><div className='m-auto'><SiNextdotjs size={70} style={nextIcon}/></div>Next</div>
                     <div className='p-6 shadow-lg dark:bg-[#3d3d3d] grid lg:grid-cols-2 text-center items-center rounded-md hover:scale-105 duration-300'><div className='m-auto'><SiTailwindcss size={60} style={twIcon}/></div>Tailwind</div>
+                    <div className='p-6 shadow-lg dark:bg-[#3d3d3d] grid lg:grid-cols-2 text-center items-center rounded-md hover:scale-105 duration-300'><div className='m-auto'><FaBootstrap size={60} style={btsIcon}/></div>Bootstrap</div>
                     <div className='p-6 shadow-lg dark:bg-[#3d3d3d] grid lg:grid-cols-2 text-center items-center rounded-md hover:scale-105 duration-300'><div className='m-auto'><SiGit size={60} style={gitIcon}/></div>Git</div>
                     <div className='p-6 shadow-lg dark:bg-[#3d3d3d] grid lg:grid-cols-2 text-center items-center rounded-md hover:scale-105 duration-300'><div className='m-auto'><SiGithub size={60} style={ghIcon}/></div>Github</div>
                 </div>
