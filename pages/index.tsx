@@ -2,8 +2,8 @@ import type { NextPage } from 'next'
 import { Navbar } from './components/Navbar'
 import { FiInstagram, FiLinkedin, FiGithub  } from "react-icons/fi";
 import { Accord } from './components/Accordion';
-import { FaHtml5, FaCss3Alt, FaReact, FaBootstrap, FaElementor, FaWordpress } from "react-icons/fa";
-import { SiJavascript, SiTypescript, SiNextdotjs, SiTailwindcss, SiGit, SiGithub, SiWhatsapp } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaReact, FaBootstrap, FaElementor, FaWordpress, FaJava  } from "react-icons/fa";
+import { SiJavascript, SiTypescript, SiNextdotjs, SiTailwindcss, SiGit, SiGithub, SiWhatsapp, SiAndroidstudio } from "react-icons/si";
 import { MobileNavbar } from './components/MobileNav';
 import { useState } from 'react';
 
@@ -24,28 +24,22 @@ const Home: NextPage = () => {
           return (
             <>
               <p className='text-xl'>
-                I am a front-end programmer passionate about developing web systems and sites with experience in React and Web Design. I am currently studying the seventh semester of Computer Science, which allows me to apply the knowledge gained during graduation in my professional activities.
-              </p>
+              I am a fullstack developer passionate about creating web systems and websites, with experience in React and Web Design. With a degree in Computer Science, I now apply the knowledge I acquired throughout my academic journey in my professional work as a fullstack developer, crafting robust and innovative solutions.              </p>
               <p className='py-5 text-xl'>
-                Throughout my career, I have developed challenging projects, working in multifunctional teams and collaborating with colleagues to deliver solutions that meet customer needs.
-              </p>
+              Throughout my career, I have worked on challenging projects, collaborating with cross-functional teams and engaging in various development areas to deliver solutions that meet clients' needs.              </p>
               <p className='text-xl'>
-                I am driven by challenges, and I am always seeking new knowledge and skills to improve my ability to create innovative and high-quality products.
-              </p>
+              I am driven by challenges and am always seeking new knowledge and skills to enhance my ability to create innovative, high-quality products.              </p>
             </>
           );
         } else {
           return (
             <>
               <p className='text-xl'>
-                Sou um programador front-end apaixonado por desenvolver sistemas web e sites com experiência em React e Web Design. Atualmente estou cursando o sétimo semestre de Ciência da Computação, o que me permite aplicar os conhecimentos adquiridos durante a graduação em minhas atividades profissionais.
-              </p>
+              Sou um desenvolvedor fullstack apaixonado por criar sistemas web e sites, com experiência em React e Web Design. Formado em Ciência da Computação, atualmente aplico todo o conhecimento adquirido ao longo da minha carreira profissional trabalhando como fullstack, desenvolvendo soluções robustas e inovadoras.              </p>
               <p className='py-5 text-xl'>
-                Ao longo de minha carreira, tenho desenvolvido projetos desafiadores, trabalhando em equipes multifuncionais e colaborando com colegas para entregar soluções que atendam às necessidades dos clientes.
-              </p>
+              Ao longo da minha trajetória, participei de projetos desafiadores, colaborando com equipes multifuncionais e atuando em diferentes áreas do desenvolvimento para entregar soluções que atendam às necessidades dos clientes.              </p>
               <p className='text-xl'>
-                Sou movido por desafios, e estou sempre buscando novos conhecimentos e habilidades para aprimorar minha capacidade de criar produtos inovadores e de alta qualidade.
-              </p>
+              Sou movido por desafios e estou sempre em busca de novos conhecimentos e habilidades para aprimorar minha capacidade de criar produtos inovadores e de alta qualidade.              </p>
             </>
           );
         }
@@ -63,6 +57,8 @@ const Home: NextPage = () => {
   const gitIcon = {color: "#F4511E"}
   const ghIcon = {color: "#455A64"}
   const elIcon = {color: "#92003b"}
+  const javaIcon = {color: "#E65100"}
+  const androidIcon = {color: "#77d989"}
   
   return (
    <>
@@ -72,11 +68,11 @@ const Home: NextPage = () => {
         <div className='min-h-[100vh] flex flex-col items-center container mx-auto'>
           <div className='px-5 text-center m-auto leading-10 py-20'>
               <p className='md:text-6xl text-4xl font-semibold dark:text-[#d3d3d3] duration-200'>Olá, me chamo <span className='text-[#ff3877]'>Henrique</span></p>
-              <p className='py-7 md:text-6xl text-4xl dark:text-[#d3d3d3] duration-200'>Sou desenvolvedor web Front-End & UI Designer</p>
+              <p className='py-7 md:text-6xl text-4xl dark:text-[#d3d3d3] duration-200'>Sou desenvolvedor Fullstack & UI Designer</p>
               <div className="max-w-[365px] m-auto">
                 <div className="p-5 md:text-lg text-md text-black grid md:grid-cols-4 justify-center gap-5 dark:text-white">
-                    <a href='https://www.instagram.com/hpires__/' target="_blank"><p className="p-6 dark:bg-[#3D3D3D] dark:hover:bg-[#ff3877b2] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-200"><FiInstagram/></p></a>
-                    <a href='https://github.com/halvesp' target="_blank"><p className="p-6 dark:bg-[#3D3D3D] dark:hover:bg-[#ff3877b2] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-200"><FiGithub/></p></a>
+                    <a href='https://www.instagram.com/henriqueapires/' target="_blank"><p className="p-6 dark:bg-[#3D3D3D] dark:hover:bg-[#ff3877b2] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-200"><FiInstagram/></p></a>
+                    <a href='https://github.com/henriqueapires' target="_blank"><p className="p-6 dark:bg-[#3D3D3D] dark:hover:bg-[#ff3877b2] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-200"><FiGithub/></p></a>
                     <a href='https://www.linkedin.com/in/henriqueapires' target="_blank"><p className="p-6 dark:bg-[#3D3D3D] dark:hover:bg-[#ff3877b2] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-200"><FiLinkedin/></p></a>
                     <a href="https://api.whatsapp.com/send?phone=5551983327071" target="_blank"><p className="p-6 dark:bg-[#3D3D3D] dark:hover:bg-[#ff3877b2] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-200"><SiWhatsapp/></p></a>
                 </div>
@@ -135,6 +131,8 @@ const Home: NextPage = () => {
                     <div className='p-6 shadow-lg dark:bg-[#3d3d3d] grid lg:grid-cols-2 text-center items-center rounded-md hover:scale-105 duration-300'><div className='m-auto'><FaBootstrap size={60} style={btsIcon}/></div>Bootstrap</div>
                     <div className='p-6 shadow-lg dark:bg-[#3d3d3d] grid lg:grid-cols-2 text-center items-center rounded-md hover:scale-105 duration-300'><div className='m-auto'><SiGit size={60} style={gitIcon}/></div>Git</div>
                     <div className='p-6 shadow-lg dark:bg-[#3d3d3d] grid lg:grid-cols-2 text-center items-center rounded-md hover:scale-105 duration-300'><div className='m-auto'><SiGithub size={60} style={ghIcon}/></div>Github</div>
+                    <div className='p-6 shadow-lg dark:bg-[#3d3d3d] grid lg:grid-cols-2 text-center items-center rounded-md hover:scale-105 duration-300'><div className='m-auto'><FaJava size={60} style={javaIcon}/></div>Java</div>
+                    <div className='p-6 shadow-lg dark:bg-[#3d3d3d] grid lg:grid-cols-2 text-center items-center rounded-md hover:scale-105 duration-300'><div className='m-auto'><SiAndroidstudio size={60} style={androidIcon}/></div>Android Studio</div>
                 </div>
             </div>
       </div>
@@ -158,8 +156,8 @@ const Home: NextPage = () => {
                         <p className='dark:text-[#d3d3d3]'>Outras formas de contato</p>
                         <div className="max-w-[365px] m-auto">
                             <div className="p-5 md:text-lg text-md text-black grid md:grid-cols-4 justify-center gap-5 dark:text-white">
-                                <a href='https://www.instagram.com/hpires__/' target="_blank"><p className="p-6 dark:bg-[#525252] dark:hover:bg-[#ff3877b2]  dark:text-[#d3d3d3] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-300"><FiInstagram/></p></a>
-                                <a href='https://github.com/halvesp' target="_blank"><p className="p-6 dark:bg-[#525252] dark:hover:bg-[#ff3877b2]  dark:text-[#d3d3d3] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-300"><FiGithub/></p></a>
+                                <a href='https://www.instagram.com/henriqueapires/' target="_blank"><p className="p-6 dark:bg-[#525252] dark:hover:bg-[#ff3877b2]  dark:text-[#d3d3d3] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-300"><FiInstagram/></p></a>
+                                <a href='https://github.com/henriqueapires' target="_blank"><p className="p-6 dark:bg-[#525252] dark:hover:bg-[#ff3877b2]  dark:text-[#d3d3d3] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-300"><FiGithub/></p></a>
                                 <a href='https://www.linkedin.com/in/henriqueapires' target="_blank"><p className="p-6 dark:bg-[#525252] dark:hover:bg-[#ff3877b2]  dark:text-[#d3d3d3] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-300"><FiLinkedin/></p></a>
                                 <a href="https://api.whatsapp.com/send?phone=5551983327071" target="_blank"><p className="p-6 dark:bg-[#525252] dark:hover:bg-[#ff3877b2]  dark:text-[#d3d3d3] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-300"><SiWhatsapp/></p></a>
                             </div>
