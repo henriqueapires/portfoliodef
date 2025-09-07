@@ -24,7 +24,7 @@ const Home: NextPage = () => {
           return (
             <>
               <p className='text-xl'>
-              I am a fullstack developer passionate about creating web systems and websites, with experience in React and Web Design. With a degree in Computer Science, I now apply the knowledge I acquired throughout my academic journey in my professional work as a fullstack developer, crafting robust and innovative solutions.              </p>
+              I am a frontend developer passionate about creating web systems and websites, with experience in React and Web Design. With a degree in Computer Science, I now apply the knowledge I acquired throughout my academic journey in my professional work as a frontend developer, crafting robust and innovative solutions.              </p>
               <p className='py-5 text-xl'>
               Throughout my career, I have worked on challenging projects, collaborating with cross-functional teams and engaging in various development areas to deliver solutions that meet clients' needs.              </p>
               <p className='text-xl'>
@@ -35,7 +35,7 @@ const Home: NextPage = () => {
           return (
             <>
               <p className='text-xl'>
-              Sou um desenvolvedor fullstack apaixonado por criar sistemas web e sites, com experiência em React e Web Design. Formado em Ciência da Computação, atualmente aplico todo o conhecimento adquirido ao longo da minha carreira profissional trabalhando como fullstack, desenvolvendo soluções robustas e inovadoras.              </p>
+              Sou um desenvolvedor frontend apaixonado por criar sistemas web e sites, com experiência em React e Web Design. Formado em Ciência da Computação, atualmente aplico todo o conhecimento adquirido ao longo da minha carreira profissional trabalhando como frontend, desenvolvendo soluções robustas e inovadoras.              </p>
               <p className='py-5 text-xl'>
               Ao longo da minha trajetória, participei de projetos desafiadores, colaborando com equipes multifuncionais e atuando em diferentes áreas do desenvolvimento para entregar soluções que atendam às necessidades dos clientes.              </p>
               <p className='text-xl'>
@@ -68,7 +68,7 @@ const Home: NextPage = () => {
         <div className='min-h-[100vh] flex flex-col items-center container mx-auto'>
           <div className='px-5 text-center m-auto leading-10 py-20'>
               <p className='md:text-6xl text-4xl font-semibold dark:text-[#d3d3d3] duration-200'>Olá, me chamo <span className='text-[#ff3877]'>Henrique</span></p>
-              <p className='py-7 md:text-6xl text-4xl dark:text-[#d3d3d3] duration-200'>Sou desenvolvedor Fullstack & UI Designer</p>
+              <p className='py-7 md:text-6xl text-4xl dark:text-[#d3d3d3] duration-200'>Sou desenvolvedor Frontend & Designer UI/UX</p>
               <div className="max-w-[365px] m-auto">
                 <div className="p-5 md:text-lg text-md text-black grid md:grid-cols-4 justify-center gap-5 dark:text-white">
                     <a href='https://www.instagram.com/henriqueapires/' target="_blank"><p className="p-6 dark:bg-[#3D3D3D] dark:hover:bg-[#ff3877b2] shadow-xl rounded-full hover:cursor-pointer hover:bg-[#ffb0c9] duration-200"><FiInstagram/></p></a>
