@@ -2,6 +2,7 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 interface ProjectCardProps {
   title: string;
@@ -28,36 +29,59 @@ export function ProjectCard({
         featured ? "md:col-span-2" : ""
       }`}
     >
-      <a
-        href={link || "#"}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="block"
-      >
+      <div className="block">
         <div className="relative aspect-video w-full overflow-hidden bg-muted">
-          <Image
-            src={image || "/placeholder.svg"}
-            alt={title}
-            fill
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
-          />
-          {link && (
-            <div className="absolute right-3 top-3 rounded-full bg-background/80 p-2 opacity-0 backdrop-blur-sm transition-opacity group-hover:opacity-100">
-              <ExternalLink className="h-4 w-4 text-foreground" />
-            </div>
+          {link ? (
+            <Link
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+            >
+              <Image
+                src={image ?? "/placeholder.svg"}
+                alt={title}
+                fill
+                className="object-cover transition-transform duration-300 group-hover:scale-105"
+              />
+              <div className="absolute right-3 top-3 rounded-full bg-background/80 p-2 opacity-0 backdrop-blur-sm transition-opacity group-hover:opacity-100">
+                <ExternalLink className="h-4 w-4 text-foreground" />
+              </div>
+            </Link>
+          ) : (
+            <Image
+              src={image ?? "/placeholder.svg"}
+              alt={title}
+              fill
+              className="object-cover"
+            />
           )}
         </div>
+
         <div className="p-6">
-          <h3 className="mb-2 text-balance text-xl font-semibold text-foreground">
-            {title}
-          </h3>
+          {link ? (
+            <Link
+              href={link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mb-2 block text-balance text-xl font-semibold text-foreground hover:underline"
+            >
+              {title}
+            </Link>
+          ) : (
+            <h3 className="mb-2 text-balance text-xl font-semibold text-foreground">
+              {title}
+            </h3>
+          )}
+
           <p className="mb-4 text-pretty leading-relaxed text-muted-foreground">
             {description}
           </p>
+
           <div className="flex flex-wrap gap-2">
-            {tags.map((tag) => (
+            {tags.map((tag, i) => (
               <Badge
-                key={tag}
+                key={`${tag}-${i}`}
                 variant="secondary"
                 className="bg-secondary text-secondary-foreground"
               >
@@ -65,20 +89,21 @@ export function ProjectCard({
               </Badge>
             ))}
           </div>
-          <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-            {linkGit && (
-              <a
+
+          {linkGit && (
+            <div className="mt-4">
+              <Link
                 href={linkGit}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline hover:text-foreground"
               >
                 Repositório GitHub
-              </a>
-            )}
-          </p>
+              </Link>
+            </div>
+          )}
         </div>
-      </a>
+      </div>
     </Card>
   );
 }

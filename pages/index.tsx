@@ -201,7 +201,7 @@ const Home: NextPage = () => {
         </div>
       </section>
 
-      <div className="container mx-auto px-5 py-20">
+      <div id="projects" className="container mx-auto px-5 py-20">
         <header className="mb-16">
           <h1 className="mb-4 text-balance text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl">
             /Projetos
