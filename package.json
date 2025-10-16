@@ -12,11 +12,17 @@
     "@emotion/styled": "^11.10.6",
     "@headlessui/react": "^1.7.12",
     "@mui/material": "^5.11.9",
+    "@radix-ui/react-slot": "^1.2.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "framer-motion": "^7.6.19",
+    "lucide-react": "^0.546.0",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.7.1"
+    "react-icons": "^4.7.1",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@types/node": "^22.18.1",
