@@ -71,7 +71,7 @@ export const MobileNavbar = () => {
                                 {item.name}
                               </a>
                             ))}
-                            <Toggle />
+                            {/* <Toggle /> */}
                           </nav>
                         </div>
                       </div>
